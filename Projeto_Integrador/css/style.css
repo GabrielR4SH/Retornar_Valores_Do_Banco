@@ -1,0 +1,191 @@
+font-family: 'Coda Caption', sans-serif;
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+
+@font-face {
+	font-family: 'DancingScript';
+	src: url("../fonts/DancingScript/DancingScript-Bold.ttf");
+	font-size: 1em;
+}
+
+
+html, body{
+   margin:0px !important;
+   padding: 0px !important;
+}
+
+header {
+	width: 100%;
+	height: 180px;
+	background: linear-gradient(-45deg, #836FFF, #E73C7E, #000080);
+	z-index: 1;
+    position: relative;
+
+
+}
+
+header .container {
+	position: relative;
+
+}
+
+h1 {
+	font-family: 'OpenSans';
+	color: black;
+	text-align: center;
+	font-size: 48px;
+	
+
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-family: 'DancingScript';
+	color: black;
+	
+
+	text-align: left;
+	font-size: 30px;
+}
+
+#menu {
+	margin: 12px 0;
+}
+#menu li {
+	display: inline-block;
+	font-family: "OpenSans";
+	color: yellow;
+}
+
+
+#menu {
+	margin-left: 45%;
+}
+
+
+#menu li a {
+	font-family: 'OpenSans-Regular';
+	color: white;
+	font-size: 22px;
+	padding: 10px 25px;
+	font-weight: bolder;
+}
+
+
+
+
+body .pop{
+	width: 450px;
+	height: 120px;
+	margin-left: 19px;
+	
+	position: relative;
+
+}
+
+p {
+	font-family: 'DancingScript';
+	color: black;
+	font-size: 25px;
+}
+
+body .prop{
+	margin-left: 40%;
+	width: 780px;
+	height: 500px;
+	position: relative;
+	
+}
+
+body .h1 {
+	
+	font-family: 'Coda Caption';
+	background-image: url('../imgs/irg.jpg');
+	
+-webkit-background-clip: text;
+-webkit-text-fill-color : transparent;
+}
+
+body .p1 {
+	font-family: 'Open_Sans';
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+body .baix{
+	margin-top: 20%;
+	margin-right: 25px;
+	margin-left: 25px;
+	text-align: center;
+	
+} 
+
+body .tex-baix {
+	font-family: 'Coda Caption';
+
+}
+
+body .carr {
+	margin-right: 3%;
+	margin-left: 25%;
+	margin-top: 35px;
+	width: 650px;
+	height: 480px;
+
+}
+
+.lilas {
+	position: all;
+	margin-bottom: 100px;
+
+}
+
+.course{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	
+	font-family: "OpenSans";
+	font-size: 40px;
+}
+
+img .anum{
+
+ 	height: 90px;
+ 	width: 90px;
+
+	}
+
+	svg{
+		color: 		#008000;
+		position: relative;
+		margin-bottom: 0;
+	}
+
+.meio {
+	position: relative;
+	margin-top: 5%;
+	margin-left: 35%;
+	margin-right: 10%;
+	font-size: 25px;
+	
+
+}
+
+.peq{
+	position: absolute;
+	margin-right: 25px;
+}
+.tablee{
+	border: solid 8px;
+}
+
+ .cad {
+	position: absolute;
+	margin-left: 30px;
+	font-family: 'DancingScript';
+}
